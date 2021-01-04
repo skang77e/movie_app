@@ -6,7 +6,7 @@ function Navigation(){
     return (
         <>
             <Navbar bg="primary" variant="dark">
-                <Navbar.Brand as={Link} to="/">Movie App</Navbar.Brand>
+                <Navbar.Brand as={Link} to="/movie_app">Movie App</Navbar.Brand>
                 <Nav className="mr-auto">
                     <Nav.Link as={Link} to="/about">About</Nav.Link>
                 </Nav>

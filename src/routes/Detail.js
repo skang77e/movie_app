@@ -7,7 +7,7 @@ class Detail extends React.Component{
         const { location, history } = this.props;
         // console.log(location.state);
         if(location.state === undefined){
-            history.push("/");
+            history.push("/movie_app");
         }
     }
 
